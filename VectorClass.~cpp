@@ -1,0 +1,13 @@
+// VectorClass.cpp
+#include "VectorClass.h" // 包含標頭檔
+
+// 實作建構式，將參數a和b分別指派給x和y
+Vector::Vector(int a, int b) {
+  x = a;
+  y = b;
+}
+
+// 實作成員函數add，回傳x和y之和
+int Vector::add() {
+  return x + y;
+}

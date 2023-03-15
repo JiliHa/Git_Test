@@ -1,0 +1,20 @@
+// VectorClass.h
+#ifndef MYCLASS_H
+#define MYCLASS_H
+
+// 定義一個名為VectorClass的類別
+class Vector {
+public:
+  // 建構式(constructor)，用來初始化物件
+  Vector(int x, int y, int z);
+
+  // 成員函數(member function)，用來實現物件的功能
+  int add();
+
+private:
+  // 成員變數(member variable)，用來儲存物件的狀態
+  int x;
+  int y;
+};
+
+#endif
